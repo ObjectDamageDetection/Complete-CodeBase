@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block Content %}
+    <!-- <img src="{{pic1}}" width="150" height="150" style="margin-left: 320px; margin-top: 50px; margin-bottom: 50px; margin-right: 50px; border: 5px solid #555555; border-radius: 30%; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);"> -->
+    <b><h3 style="color:black;text-shadow:0.75px 0.75px gray;font-size:30px; font-family: 'Montserrat', sans-serif; margin-top: 80px; margin-left: 125px;"> The Result of Calculation is as Follows:</h3></b>
+    <b><h3 style="color:black;text-shadow:0.75px 0.75px gray;font-size:30px; font-family: 'Montserrat', sans-serif; margin-left: 30px;">
+    <pre style="justify-content: center; margin-left: 60px;">The car in the picture seems to be {{pred}}! <br>The intensity of the damage is {{pred1}}</pre>
+    </h3></b>
+    <b><h3 style="color:black;text-shadow:0.75px 0.75px gray;font-size:30px; font-family: 'Montserrat', sans-serif; margin-left: 185px"> Thank You for using our site! </h3></b>
+    <br>
+<!-- The Model Accuracy Is {{Model_Accuracy}} Percent -->
+{% endblock %}
